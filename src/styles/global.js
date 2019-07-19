@@ -1,7 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
+import colors from './colors';
 
 export default createGlobalStyle`
-@import url('https://fonts/googleapis.com/css?family=Roboto:400');
+    @import url('https://fonts/googleapis.com/css?family=Roboto:400,700&display=swap');
+
     * {
         margin: 0;
         padding: 0;
@@ -10,13 +12,12 @@ export default createGlobalStyle`
     }
 
     body {
-        background: #191920;
+        background: ${colors.primary};
         -webkit-font-smoothing: antialiased;
     }
 
     body, input, button {
         font: 14px sans-serif;
-        color: #f6f6f6;
     }
 
     #root {
