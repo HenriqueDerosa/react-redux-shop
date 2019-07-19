@@ -1,5 +1,5 @@
 const colors = {
-    primary: '#195587'
+    primary: '#1b73ad'
 }
 
 export default colors;
