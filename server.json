@@ -28,39 +28,39 @@
     "products": [
         {
             "id": 1,
-            "title": "Tênis de Caminhada Leve Confortável",
-            "price": 179.9,
-            "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+            "title": "Fake News",
+            "price": 79.9,
+            "image": "https://livraria.estudosnacionais.com/image/cache/data/api/produtos/8521-168x250.jpg"
         },
         {
             "id": 2,
-            "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-            "price": 139.9,
-            "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+            "title": "História da Igreja",
+            "price": 39.9,
+            "image": "https://livraria.estudosnacionais.com/image/cache/data/3historiadaigreja-168x250.jpg"
         },
         {
             "id": 3,
-            "title": "Tênis Adidas Duramo Lite 2.0",
-            "price": 219.9,
-            "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+            "title": "A Beleza Salvará o Mundo",
+            "price": 19.9,
+            "image": "https://livraria.estudosnacionais.com/image/cache/data/ABelezaSalvaraOMundo-168x250.jpg"
         },
         {
             "id": 5,
-            "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-            "price": 139.9,
-            "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+            "title": "Contra a Escola",
+            "price": 39.9,
+            "image": "https://livraria.estudosnacionais.com/image/cache/data/ContraAEscola-142x214.jpg"
         },
         {
             "id": 6,
-            "title": "Tênis Adidas Duramo Lite 2.0",
-            "price": 219.9,
-            "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+            "title": "A Transformação Social",
+            "price": 19.9,
+            "image": "https://livraria.estudosnacionais.com/image/cache/data/api/produtos/4856-142x214.jpg"
         },
         {
             "id": 4,
-            "title": "Tênis de Caminhada Leve Confortável",
-            "price": 179.9,
-            "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+            "title": "Patrística - Santo Agostinho",
+            "price": 79.9,
+            "image": "https://livraria.estudosnacionais.com/image/cache/data/api/produtos/7713-142x214.jpg"
         }
     ]
 }

@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { darken } from 'polished'
 
+import colors from '../../styles/colors'
+
 export const ProductList = styled.div`
     list-style: none;
     color: #000;
@@ -19,6 +21,10 @@ export const ProductList = styled.div`
         img {
             align-self: center;
             max-width: 280px;
+            transition: all 0.4s;
+            &:hover {
+                transform: scale(1.04) rotate(2deg);
+            }
         }
 
         > strong {
@@ -35,7 +41,7 @@ export const ProductList = styled.div`
         }
 
         button {
-            background: #7159c1;
+            background:${colors.primary};
             color: #fff;
 
             border: 0;
@@ -48,7 +54,7 @@ export const ProductList = styled.div`
             transition: background 0.2s;
 
             &:hover {
-                background: ${darken(0.03, '#7159c1')}
+                background: ${darken(0.05, colors.primary)}
             }
 
             div {
