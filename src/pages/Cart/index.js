@@ -4,20 +4,18 @@ import {Container, ProductTable, Total} from './styles'
 import colors from '../../styles/colors'
 import { MdRemoveCircleOutline, MdAddCircleOutline, MdDelete} from 'react-icons/md'
 
-import productImg from '../../assets/images/placeholder_product.jpg';
-
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import {formatPrice} from '../../utils/format';
 import * as CartActions from '../../store/modules/cart/actions';
 
-function Cart({ cart, total, removeFromCart, updateAmount }) {
+function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
 
     function increment(product) {
-        updateAmount(product.id, product.amount+1);
+        updateAmountRequest(product.id, product.amount+1);
     }
     function decrement(product) {
-        updateAmount(product.id, product.amount-1);
+        updateAmountRequest(product.id, product.amount-1);
     }
 
         return (
