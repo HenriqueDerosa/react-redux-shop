@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Container, ProductTable, Total} from './styles'
 
 import colors from '../../styles/colors'
