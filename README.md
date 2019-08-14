@@ -4,7 +4,8 @@
 Install dependencies by typing `npm install` or `yarn`.
 
 ### Run the fake API
-`json-server server.json`
+    Looks like you must install it globally to run this command. Use `npm install -g json-server` for example.
+`json-server server.json`.
 use `--watch` to watch any changes
 
 ### Run the react application
