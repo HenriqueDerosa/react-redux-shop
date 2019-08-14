@@ -39,9 +39,7 @@ function* updateAmount({ id, amount }) {
     if (amount <= 0) {
         return;
     }
-
-    const product = yield select( state => state.cart.find(p=>p.id===id));
-
+    
     const stock = yield call(api.get, `/stock/${id}`);
     const stockAmount = stock.data.amount;
 
